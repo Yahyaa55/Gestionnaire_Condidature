@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  max-width: 320px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgba(243, 244, 246, );
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: rgba(17, 24, 39, 1);
+  text-decoration: none;
+}
+
+.title:hover {
+  text-decoration: underline royalblue;
+}
+
+.name {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  color: rgba(75, 85, 99, 1);
+}
+
+.image {
+  display: block;
+  flex-shrink: 0;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  background-color: royalblue;
+}
+
+.description {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgba(107, 114, 128, 1);
+}
+
+.post-info {
+  margin-top: 1.5rem;
+  display: flex;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.cr {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.dt {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  color: rgba(75, 85, 99, 1);
+}
+
+.dd {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(107, 114, 128,1);
+}
